@@ -40,6 +40,8 @@ LLM 에이전트 워크플로우는 **조용히 실패한다**. 컨텍스트가 
 
 ## Quick Start
 
+**독립 repo로 시작 (권장):** GitHub 에서 **`Use this template`** → `Create a new repository` 로 원본과 끊긴 깨끗한 내 repo 를 만든 뒤 clone 해 `/halo-workflow [기능 설명]` 실행. (Fork 가 아니라 Template 버튼)
+
 **간편 설치 (Windows):** `setup-agent.bat` 더블클릭 → Claude Code(`.claude/`) + Codex(`AGENTS.md`·`.codex/`)를 현재 폴더에 이식 (옵션: `-Tools codex` · `-WhatIf` · `-Target <폴더>`). 더블클릭 진입점은 `.bat`이고 실제 로직은 `setup-agent.ps1`이다.
 
 수동:
